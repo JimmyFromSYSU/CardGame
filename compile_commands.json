@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/Users/admin/core/code/c/build",
+  "command": "/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame -I/Users/admin/core/code/c/src/CardGame/event_queue -I/Users/admin/core/code/c/src/CardGame/game_basic -I/Users/admin/core/code/c/src/CardGame/poker -I/Users/admin/core/code/c/src/CardGame/poker_ddz    -o CMakeFiles/ddz.dir/APP/ddz.cpp.o -c /Users/admin/core/code/c/src/APP/ddz.cpp",
+  "file": "/Users/admin/core/code/c/src/APP/ddz.cpp"
+},
+{
+  "directory": "/Users/admin/core/code/c/build/CardGame",
+  "command": "/usr/bin/c++   -DCardGame_EXPORTS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fPIC -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame/. -I/Users/admin/core/code/c/src/CardGame/./event_queue -I/Users/admin/core/code/c/src/CardGame/./game_basic -I/Users/admin/core/code/c/src/CardGame/./poker -I/Users/admin/core/code/c/src/CardGame/./poker_ddz    -o CMakeFiles/CardGame.dir/event_queue/Event.cpp.o -c /Users/admin/core/code/c/src/CardGame/event_queue/Event.cpp",
+  "file": "/Users/admin/core/code/c/src/CardGame/event_queue/Event.cpp"
+},
+{
+  "directory": "/Users/admin/core/code/c/build/CardGame",
+  "command": "/usr/bin/c++   -DCardGame_EXPORTS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fPIC -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame/. -I/Users/admin/core/code/c/src/CardGame/./event_queue -I/Users/admin/core/code/c/src/CardGame/./game_basic -I/Users/admin/core/code/c/src/CardGame/./poker -I/Users/admin/core/code/c/src/CardGame/./poker_ddz    -o CMakeFiles/CardGame.dir/event_queue/EventQueue.cpp.o -c /Users/admin/core/code/c/src/CardGame/event_queue/EventQueue.cpp",
+  "file": "/Users/admin/core/code/c/src/CardGame/event_queue/EventQueue.cpp"
+},
+{
+  "directory": "/Users/admin/core/code/c/build/CardGame",
+  "command": "/usr/bin/c++   -DCardGame_EXPORTS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fPIC -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame/. -I/Users/admin/core/code/c/src/CardGame/./event_queue -I/Users/admin/core/code/c/src/CardGame/./game_basic -I/Users/admin/core/code/c/src/CardGame/./poker -I/Users/admin/core/code/c/src/CardGame/./poker_ddz    -o CMakeFiles/CardGame.dir/event_queue/EventQueueListener.cpp.o -c /Users/admin/core/code/c/src/CardGame/event_queue/EventQueueListener.cpp",
+  "file": "/Users/admin/core/code/c/src/CardGame/event_queue/EventQueueListener.cpp"
+},
+{
+  "directory": "/Users/admin/core/code/c/build/CardGame",
+  "command": "/usr/bin/c++   -DCardGame_EXPORTS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fPIC -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame/. -I/Users/admin/core/code/c/src/CardGame/./event_queue -I/Users/admin/core/code/c/src/CardGame/./game_basic -I/Users/admin/core/code/c/src/CardGame/./poker -I/Users/admin/core/code/c/src/CardGame/./poker_ddz    -o CMakeFiles/CardGame.dir/game_basic/CardGroup.cpp.o -c /Users/admin/core/code/c/src/CardGame/game_basic/CardGroup.cpp",
+  "file": "/Users/admin/core/code/c/src/CardGame/game_basic/CardGroup.cpp"
+},
+{
+  "directory": "/Users/admin/core/code/c/build/CardGame",
+  "command": "/usr/bin/c++   -DCardGame_EXPORTS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fPIC -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame/. -I/Users/admin/core/code/c/src/CardGame/./event_queue -I/Users/admin/core/code/c/src/CardGame/./game_basic -I/Users/admin/core/code/c/src/CardGame/./poker -I/Users/admin/core/code/c/src/CardGame/./poker_ddz    -o CMakeFiles/CardGame.dir/game_basic/CardGame.cpp.o -c /Users/admin/core/code/c/src/CardGame/game_basic/CardGame.cpp",
+  "file": "/Users/admin/core/code/c/src/CardGame/game_basic/CardGame.cpp"
+},
+{
+  "directory": "/Users/admin/core/code/c/build/CardGame",
+  "command": "/usr/bin/c++   -DCardGame_EXPORTS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fPIC -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame/. -I/Users/admin/core/code/c/src/CardGame/./event_queue -I/Users/admin/core/code/c/src/CardGame/./game_basic -I/Users/admin/core/code/c/src/CardGame/./poker -I/Users/admin/core/code/c/src/CardGame/./poker_ddz    -o CMakeFiles/CardGame.dir/game_basic/Player.cpp.o -c /Users/admin/core/code/c/src/CardGame/game_basic/Player.cpp",
+  "file": "/Users/admin/core/code/c/src/CardGame/game_basic/Player.cpp"
+},
+{
+  "directory": "/Users/admin/core/code/c/build/CardGame",
+  "command": "/usr/bin/c++   -DCardGame_EXPORTS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fPIC -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame/. -I/Users/admin/core/code/c/src/CardGame/./event_queue -I/Users/admin/core/code/c/src/CardGame/./game_basic -I/Users/admin/core/code/c/src/CardGame/./poker -I/Users/admin/core/code/c/src/CardGame/./poker_ddz    -o CMakeFiles/CardGame.dir/game_basic/PlayerRing.cpp.o -c /Users/admin/core/code/c/src/CardGame/game_basic/PlayerRing.cpp",
+  "file": "/Users/admin/core/code/c/src/CardGame/game_basic/PlayerRing.cpp"
+},
+{
+  "directory": "/Users/admin/core/code/c/build/CardGame",
+  "command": "/usr/bin/c++   -DCardGame_EXPORTS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fPIC -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame/. -I/Users/admin/core/code/c/src/CardGame/./event_queue -I/Users/admin/core/code/c/src/CardGame/./game_basic -I/Users/admin/core/code/c/src/CardGame/./poker -I/Users/admin/core/code/c/src/CardGame/./poker_ddz    -o CMakeFiles/CardGame.dir/game_basic/Dealer.cpp.o -c /Users/admin/core/code/c/src/CardGame/game_basic/Dealer.cpp",
+  "file": "/Users/admin/core/code/c/src/CardGame/game_basic/Dealer.cpp"
+},
+{
+  "directory": "/Users/admin/core/code/c/build/CardGame",
+  "command": "/usr/bin/c++   -DCardGame_EXPORTS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fPIC -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame/. -I/Users/admin/core/code/c/src/CardGame/./event_queue -I/Users/admin/core/code/c/src/CardGame/./game_basic -I/Users/admin/core/code/c/src/CardGame/./poker -I/Users/admin/core/code/c/src/CardGame/./poker_ddz    -o CMakeFiles/CardGame.dir/poker/PokerCard.cpp.o -c /Users/admin/core/code/c/src/CardGame/poker/PokerCard.cpp",
+  "file": "/Users/admin/core/code/c/src/CardGame/poker/PokerCard.cpp"
+},
+{
+  "directory": "/Users/admin/core/code/c/build/CardGame",
+  "command": "/usr/bin/c++   -DCardGame_EXPORTS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fPIC -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame/. -I/Users/admin/core/code/c/src/CardGame/./event_queue -I/Users/admin/core/code/c/src/CardGame/./game_basic -I/Users/admin/core/code/c/src/CardGame/./poker -I/Users/admin/core/code/c/src/CardGame/./poker_ddz    -o CMakeFiles/CardGame.dir/poker/PokerCardGame.cpp.o -c /Users/admin/core/code/c/src/CardGame/poker/PokerCardGame.cpp",
+  "file": "/Users/admin/core/code/c/src/CardGame/poker/PokerCardGame.cpp"
+},
+{
+  "directory": "/Users/admin/core/code/c/build/CardGame",
+  "command": "/usr/bin/c++   -DCardGame_EXPORTS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fPIC -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame/. -I/Users/admin/core/code/c/src/CardGame/./event_queue -I/Users/admin/core/code/c/src/CardGame/./game_basic -I/Users/admin/core/code/c/src/CardGame/./poker -I/Users/admin/core/code/c/src/CardGame/./poker_ddz    -o CMakeFiles/CardGame.dir/poker/PokerCardUtils.cpp.o -c /Users/admin/core/code/c/src/CardGame/poker/PokerCardUtils.cpp",
+  "file": "/Users/admin/core/code/c/src/CardGame/poker/PokerCardUtils.cpp"
+},
+{
+  "directory": "/Users/admin/core/code/c/build/CardGame",
+  "command": "/usr/bin/c++   -DCardGame_EXPORTS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fPIC -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame/. -I/Users/admin/core/code/c/src/CardGame/./event_queue -I/Users/admin/core/code/c/src/CardGame/./game_basic -I/Users/admin/core/code/c/src/CardGame/./poker -I/Users/admin/core/code/c/src/CardGame/./poker_ddz    -o CMakeFiles/CardGame.dir/poker_ddz/PokerCardGameDDZ.cpp.o -c /Users/admin/core/code/c/src/CardGame/poker_ddz/PokerCardGameDDZ.cpp",
+  "file": "/Users/admin/core/code/c/src/CardGame/poker_ddz/PokerCardGameDDZ.cpp"
+},
+{
+  "directory": "/Users/admin/core/code/c/build/CardGame",
+  "command": "/usr/bin/c++   -DCardGame_EXPORTS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fPIC -I/Users/admin/core/code/c/src/. -I/Users/admin/core/code/c/src/CardGame/. -I/Users/admin/core/code/c/src/CardGame/./event_queue -I/Users/admin/core/code/c/src/CardGame/./game_basic -I/Users/admin/core/code/c/src/CardGame/./poker -I/Users/admin/core/code/c/src/CardGame/./poker_ddz    -o CMakeFiles/CardGame.dir/poker_ddz/PokerCardGameDDZDealer.cpp.o -c /Users/admin/core/code/c/src/CardGame/poker_ddz/PokerCardGameDDZDealer.cpp",
+  "file": "/Users/admin/core/code/c/src/CardGame/poker_ddz/PokerCardGameDDZDealer.cpp"
+}
+]

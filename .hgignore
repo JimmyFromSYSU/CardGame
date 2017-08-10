@@ -1,0 +1,4 @@
+syntax: glob
+Dragon
+compile_commands.json
+
