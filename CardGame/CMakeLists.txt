@@ -14,6 +14,9 @@ set(GAME_BASIC_CODE
   game_basic/Player.cpp
   game_basic/PlayerRing.cpp
   game_basic/Dealer.cpp
+  game_basic/Action.cpp
+  game_basic/PlayCardsAction.cpp
+  game_basic/HistoricalStack.cpp
 
   poker/PokerCard.cpp
   poker/PokerCardGame.cpp
@@ -21,6 +24,8 @@ set(GAME_BASIC_CODE
 
   poker_ddz/PokerCardGameDDZ.cpp
   poker_ddz/PokerCardGameDDZDealer.cpp
+  poker_ddz/PokerCardGameDDZPlayer.cpp
+  poker_ddz/PokerCardGameDDZUtils.cpp
 )
 
 add_library(CardGame

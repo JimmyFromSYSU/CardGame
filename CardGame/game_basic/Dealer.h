@@ -4,12 +4,14 @@
 #include "PlayerRing.h"
 #include "CardGroup.h"
 #include "EventQueueListener.h"
+#include "HistoricalStack.h"
 
 // who knows the process of the game
 class Dealer {
 protected:
 CardGroup cards;
 PlayerRing players;
+HistoricalStack stack;
 
 public:
 Dealer();

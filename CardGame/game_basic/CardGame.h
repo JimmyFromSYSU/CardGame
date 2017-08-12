@@ -28,11 +28,13 @@ CardGame();
 
 // a game only init once, but could run serveral times.
 virtual void init();
+virtual void run()=0;
 
 virtual CardGroup * getCardDeck();
 virtual PlayerRing * getPlayers();
 
-virtual void run();
+
+
 };
 
 #endif /* end of include guard: CARD_GAME_APP */

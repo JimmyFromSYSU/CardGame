@@ -4,6 +4,9 @@
 #include <string>
 #include <vector>
 
+// 一个事件，该卡牌游戏系统由事件进行驱动
+// 一个对象，比如Dealer，Player或者UI等，都将维护一个自己的状态机，
+// 并根据接受到的事件进行处理和更新状态。这些事件将会放入到EventQueue当中
 class Event {
 
 protected:

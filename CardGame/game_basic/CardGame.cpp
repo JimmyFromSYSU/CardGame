@@ -24,15 +24,11 @@ void CardGame::init(){
         q = new EventQueue("main_queue");
 }
 
-void CardGame::run() {
-}
-
-
 void CardGame::addPlayer(Player* player) {
         players.add(player);
 }
 
 void CardGame::addDealer(Dealer* d) {
-        if(this->dealer) this->dealer = NULL;
+        if(this->dealer) delete this->dealer;
         this->dealer = d;
 }

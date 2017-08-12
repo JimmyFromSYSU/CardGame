@@ -1,0 +1,6 @@
+#ifndef CARD_GAME_ACTION_TYPE_LIST
+#define CARD_GAME_ACTION_TYPE_LIST
+
+#define ACTION_TYPE_PLAY_CARDS         "PLAY_CARDS"
+
+#endif /* end of include guard: CARD_GAME_ACTION_TYPE_LIST */

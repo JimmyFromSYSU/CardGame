@@ -8,6 +8,11 @@ EventQueue::EventQueue(std::string name) {
 }
 
 EventQueue::~EventQueue() {
+        clear();
+}
+
+void EventQueue::clear() {
+        clearListener();
         while(!this->q.empty()) {
                 Event * e = this->q.front();
                 this->q.pop();
@@ -21,7 +26,15 @@ std::string EventQueue::getName() {
 }
 
 void EventQueue::addListener(EventQueueListener* l) {
+        if(l == NULL) return;
+        for(int i = 0; i<this->listeners.size(); i++) {
+                if(this->listeners[i] == l) return;
+        }
         this->listeners.push_back(l);
+}
+
+void EventQueue::clearListener() {
+        this->listeners.clear();
 }
 
 void EventQueue::push(Event* e) {
@@ -37,13 +50,16 @@ bool EventQueue::pop() {
         if(this->q.empty()) return false;
         Event * e = this->q.front();
 
+        event_cnt++;
+
         printf(PRINT_BLUE "Event %d/%d: ", event_cnt, tot_event_cnt);
         e->print(); puts(PRINT_END);
 
-        event_cnt++;
         for (int i = 0; i<listeners.size(); i++) {
                 EventQueueListener* l = listeners[i];
-                l->process(e, this);
+                if(l->interestedInAny( e->getTags())) {
+                        l->process(e, this);
+                }
         }
         this->q.pop();
         if(e) delete e;

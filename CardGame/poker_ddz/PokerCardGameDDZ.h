@@ -11,10 +11,6 @@ protected:
 CardGroup ddzCards;
 
 public:
-static std::map<PokerNumber,int> numberOrder;
-static std::map<PokerType,int> typeOrder;
-static bool DDZHandCardComparator(Card* &c1, Card* &c2);
-
 PokerCardGameDDZ();
 ~PokerCardGameDDZ();
 

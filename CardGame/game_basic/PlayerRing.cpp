@@ -24,7 +24,7 @@ void PlayerRing::clear() {
 void PlayerRing::deepClear() {
         std::set<Player*>::iterator it;
         for (it = players.begin(); it!= players.end(); ++it) {
-                delete (*it);
+                if (*it) delete (*it);
         }
         clear();
 }
