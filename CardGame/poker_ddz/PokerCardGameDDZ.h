@@ -4,17 +4,19 @@
 #include "PokerCardGame.h"
 #include "CardGroup.h"
 #include "PokerCard.h"
+#include "DDZDecideDZRule.h"
 #include <map>
 
 class PokerCardGameDDZ : public PokerCardGame {
 protected:
 CardGroup ddzCards;
+DDZDecideDZRule * decideDZRule;
 
 public:
 PokerCardGameDDZ();
 ~PokerCardGameDDZ();
 
-virtual void init();
+virtual bool init();
 virtual void run();
 
 };

@@ -13,6 +13,7 @@ CardGroup cards;
 public:
 PlayCardsAction(CardGroup cards);
 ~PlayCardsAction();
+virtual std::string getName();
 CardGroup getCards();
 virtual void playBy(Player* p) const;
 // 反动作

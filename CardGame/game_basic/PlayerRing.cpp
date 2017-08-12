@@ -62,6 +62,15 @@ Player* PlayerRing::getCurrPlayer() const {
         return this->curr_player;
 }
 
+
+Player* PlayerRing::getNextPlayer(const Player * player) const {
+        return next.at(player);
+}
+
+Player* PlayerRing::getPrevPlayer(const Player * player) const {
+        return prev.at(player);
+}
+
 void PlayerRing::setCurrPlayer(Player* p) {
         this->curr_player = p;
 }

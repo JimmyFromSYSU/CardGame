@@ -54,3 +54,10 @@ bool handCardComparator(Card* & c1, Card* & c2)
 void sortCards(Player* p, void * data) {
         p->sortCards(handCardComparator);
 }
+
+void gameOver(EventQueue * q) {
+        Event * e = new Event(EVENT_GAME_OVER);
+        e->addTag(EVENT_TAG_GAME_PROCESS);
+        e->setData(NULL);
+        q->push(e);
+}

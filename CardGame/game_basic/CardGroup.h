@@ -55,6 +55,7 @@ Card * first() const;
 Card * last() const;
 CardGroup first(int n) const;
 CardGroup last(int n) const;
+std::vector<const Card*> getVector() const;
 };
 
 #endif /* end of include guard: CARD_GAME_CARDGROUP */

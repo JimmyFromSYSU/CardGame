@@ -20,7 +20,8 @@ unsigned size() const;
 
 void setCurrPlayer(Player *);
 Player* getCurrPlayer() const;
-
+Player* getNextPlayer(const Player *) const;
+Player* getPrevPlayer(const Player *) const;
 Player* getFirstPlayer() const;
 
 void resetCurrPlayer();
@@ -29,8 +30,8 @@ void forEachPlayerRun(PlayerFunc f, void * data = 0);
 
 protected:
 std::set<Player*> players;
-std::map<Player*, Player*> next;
-std::map<Player*, Player*> prev;
+std::map<const Player*, Player*> next;
+std::map<const Player*, Player*> prev;
 Player* curr_player;
 Player* first_player;
 };

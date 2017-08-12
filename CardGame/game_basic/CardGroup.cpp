@@ -167,3 +167,14 @@ void CardGroup::deepClear() {
         }
         clear();
 }
+
+std::vector<const Card*> CardGroup::getVector() const {
+        std::vector<const Card*> c;
+        for (int i = 0; i< this->cards.size(); i++) {
+                if(this->cards[i] != NULL) {
+                        c.push_back(this->cards[i]);
+                }
+
+        }
+        return c;
+}

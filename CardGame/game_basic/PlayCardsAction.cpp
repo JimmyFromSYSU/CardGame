@@ -7,6 +7,11 @@ PlayCardsAction::PlayCardsAction(CardGroup cards) {
 PlayCardsAction::~PlayCardsAction() {
 }
 
+std::string PlayCardsAction::getName() {
+        return "PlayCardsAction";
+}
+
+
 void PlayCardsAction::playBy(Player* p) const {
         p->eraseCards(this->cards);
         printf("PlayCardsAction: %s play ", p->getName().c_str());

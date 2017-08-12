@@ -10,24 +10,26 @@
 
 #include "EventQueue.h"
 
+// 负责组装游戏，选择什么dealer，什么player，什么rule，什么state
 class CardGame {
 
 protected:
-CardGroup card_deck;
+CardGroup cards;
 PlayerRing players;
 Dealer * dealer;
 EventQueue * q;
+bool isInit;
 
 // addPlayer when setupPlayer
-void addPlayer(Player*);
-void addDealer(Dealer*);
+// void addPlayer(Player*);
+// void addDealer(Dealer*);
 
 public:
 CardGame();
 ~CardGame();
 
 // a game only init once, but could run serveral times.
-virtual void init();
+virtual bool init();
 virtual void run()=0;
 
 virtual CardGroup * getCardDeck();

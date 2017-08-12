@@ -12,6 +12,9 @@ include_directories(CardGame/event_queue/)
 include_directories(CardGame/game_basic/)
 include_directories(CardGame/poker/)
 include_directories(CardGame/poker_ddz/)
+include_directories(CardGame/poker_ddz/ai)
+include_directories(CardGame/poker_ddz/player)
+include_directories(CardGame/poker_ddz/rule)
 
 ############################################# APP
 

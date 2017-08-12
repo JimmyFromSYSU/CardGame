@@ -8,18 +8,11 @@
 
 class PokerCardGameDDZDealer : public Dealer,  public EventQueueListener {
 protected:
-//轮询叫地主时的信息
-AskDZInfo ask_dz_info;
 
-// 公布地主时的信息
-DZInfo dz_info;
-
-// 轮询出牌时的信息
-PlayCardInfo play_card_info;
+Player * dz_player;
+CardGroup dz_cards;
 
 void askToPlay(Player * p, EventQueue * q);
-void claimDZ(EventQueue * q);
-void setDZ(Player * p, EventQueue * q);
 
 public:
 virtual void setup(CardGroup& card_deck, bool showInfo=true);

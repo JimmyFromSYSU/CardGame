@@ -10,6 +10,7 @@
 class Action {
 
 public:
+virtual std::string getName()=0;
 virtual void playBy(Player* p) const=0;
 // 反动作
 virtual void inversePlayBy(Player* p) const=0;

@@ -19,13 +19,13 @@ void HistoricalStack::clear() {
 }
 
 void HistoricalStack::push(Player * p, Action * action) {
-        puts("HistoricalStack: push action");
+        // puts("HistoricalStack: push action");
         PlayerAction player_action(p, action);
         this->stack.push_back(player_action);
 }
 
 void HistoricalStack::pop() {
-        puts("HistoricalStack: pop");
+        // puts("HistoricalStack: pop");
         if(this->stack.size() > 0) {
                 Action * action = this->stack.back().action;
                 if(action) delete action;
